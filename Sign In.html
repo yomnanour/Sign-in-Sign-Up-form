@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sign In & Sign Up Form</title>
+        <link rel="stylesheet" href="CSS/Sign In & Sign Up.css">
+    </head>
+    <body>
+        <form action="" method="post">
+            <h1>Sign Up For Free</h1>
+            <div class="email">
+                <input type="email" id="email" placeholder="Email Address*" oninput="CheckEmail(this.value)" required>
+            </div>
+            <div class="password">
+                <input type="password" placeholder="Password" required>
+            </div>
+            <div class="signIn">
+                <p><a href="Sign In.html">Forget Password?</a></p>
+            </div>
+            <button class="btn" id="signin" onclick="Check()">Log In</button>
+        </form>
+        <script src="Java Script/Sign In & Sign Up.js"></script>
+    </body>
+</html>
